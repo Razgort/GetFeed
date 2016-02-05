@@ -17,8 +17,8 @@
         </afterSyncTasks>
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
-        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res/layouts" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res/drawable;file://$MODULE_DIR$/src/main/res/drawable-mdpi;file://$MODULE_DIR$/src/main/res/drawable-hdpi;file://$MODULE_DIR$/src/main/res/drawable-xhdpi;file://$MODULE_DIR$/src/main/res/drawable-xxhdpi;file://$MODULE_DIR$/src/main/res/menu;file://$MODULE_DIR$/src/main/res/values;file://$MODULE_DIR$/src/main/res/values-w820dp;file://$MODULE_DIR$/src/main/res" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
     </facet>
@@ -46,10 +46,24 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/layouts" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/layouts/devis_layout" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/layouts/client_layout" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/drawable" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/drawable-ldpi" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/drawable-mdpi" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/drawable-hdpi" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/drawable-xhdpi" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/drawable-xxhdpi" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/drawable-xxxhdpi" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/menu" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/values" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/res/values-w820dp" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/resources" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/assets" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/aidl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/.apt_generated" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/rs" isTestSource="false" />

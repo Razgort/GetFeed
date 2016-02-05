@@ -17,6 +17,31 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    sourceSets {
+        main {
+            manifest.srcFile '/src/main/AndroidManifest.xml'
+            java.srcDirs = ['/src/main/java', '.apt_generated']
+            aidl.srcDirs = ['/src/main/aidl', '.apt_generated']
+            assets.srcDirs = ['/src/main/assets']
+            res.srcDirs =
+                    [
+                            '/src/main/res/layouts',
+                            '/src/main/res/layouts/devis_layout',
+                            '/src/main/res/layouts/client_layout',
+                            'src/main/res/drawable',
+                            'src/main/res/drawable-ldpi',
+                            'src/main/res/drawable-mdpi',
+                            'src/main/res/drawable-hdpi',
+                            'src/main/res/drawable-xhdpi',
+                            'src/main/res/drawable-xxhdpi',
+                            'src/main/res/drawable-xxxhdpi',
+                            'src/main/res/menu',
+                            'src/main/res/values',
+                            'src/main/res/values-w820dp',
+                            '/src/main/res'
+                    ]
+        }
+    }
 }
 
 dependencies {

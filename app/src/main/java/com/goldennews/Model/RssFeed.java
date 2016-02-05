@@ -1,4 +1,4 @@
-package com.goldennews;
+package com.goldennews.Model;
 
 /**
  * Created by Razgort on 05/02/2016.

@@ -1,22 +1,22 @@
-package com.goldennews;
+package com.goldennews.Controller.Activity;
 
 import android.app.Activity;
 
 import android.app.ActionBar;
 import android.app.Fragment;
 import android.app.FragmentManager;
-import android.content.Context;
-import android.os.Build;
 import android.os.Bundle;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.support.v4.widget.DrawerLayout;
-import android.widget.ArrayAdapter;
-import android.widget.TextView;
+
+import com.goldennews.Controller.Fragment.NavigationDrawerFragment;
+import com.goldennews.R;
+
+import butterknife.ButterKnife;
 
 
 public class MainActivity extends Activity
@@ -36,6 +36,7 @@ public class MainActivity extends Activity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        ButterKnife.bind(this);
 
         mNavigationDrawerFragment = (NavigationDrawerFragment)
                 getFragmentManager().findFragmentById(R.id.navigation_drawer);
@@ -61,12 +62,12 @@ public class MainActivity extends Activity
             case 1:
                 mTitle = getString(R.string.title_section1);
                 break;
-            case 2:
+/*            case 2:
                 mTitle = getString(R.string.title_section2);
                 break;
             case 3:
                 mTitle = getString(R.string.title_section3);
-                break;
+                break;*/
         }
     }
 
