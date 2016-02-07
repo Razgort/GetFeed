@@ -10,7 +10,15 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:theme="@style/ThemeOverlay.AppCompat.Dark">
-
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#cccc"
+        android:hint="search"
+        android:padding="10dp"
+        android:inputType="text" >
+    </EditText>
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
