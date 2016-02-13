@@ -8,7 +8,7 @@ import org.simpleframework.xml.Root;
  * Created by Razgort on 05/02/2016.
  */
 @Root(name = "RssItem", strict = false)
-public class RssItem {
+public class RssFeedItem {
     @Element(name = "title", required = true)
     String title;
     @Element(name = "link", required = true)
